@@ -14,6 +14,8 @@
 		00A321141EC02FEE00B3E46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A321121EC02FEE00B3E46E /* LaunchScreen.storyboard */; };
 		00A3211F1EC02FEE00B3E46E /* TableViewIOS2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3211E1EC02FEE00B3E46E /* TableViewIOS2Tests.swift */; };
 		00A3212A1EC02FEE00B3E46E /* TableViewIOS2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A321291EC02FEE00B3E46E /* TableViewIOS2UITests.swift */; };
+		00A321381EC0398500B3E46E /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A321371EC0398500B3E46E /* SearchResultsController.swift */; };
+		00A3213A1EC03ADF00B3E46E /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00A321391EC03ADF00B3E46E /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		00A321251EC02FEE00B3E46E /* TableViewIOS2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewIOS2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A321291EC02FEE00B3E46E /* TableViewIOS2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIOS2UITests.swift; sourceTree = "<group>"; };
 		00A3212B1EC02FEE00B3E46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A321371EC0398500B3E46E /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		00A321391EC03ADF00B3E46E /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				00A321091EC02FEE00B3E46E /* AppDelegate.swift */,
 				00A3210B1EC02FEE00B3E46E /* ViewController.swift */,
+				00A321371EC0398500B3E46E /* SearchResultsController.swift */,
+				00A321391EC03ADF00B3E46E /* sortednames.plist */,
 				00A3210D1EC02FEE00B3E46E /* Main.storyboard */,
 				00A321101EC02FEE00B3E46E /* Assets.xcassets */,
 				00A321121EC02FEE00B3E46E /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A3213A1EC03ADF00B3E46E /* sortednames.plist in Resources */,
 				00A321141EC02FEE00B3E46E /* LaunchScreen.storyboard in Resources */,
 				00A321111EC02FEE00B3E46E /* Assets.xcassets in Resources */,
 				00A3210F1EC02FEE00B3E46E /* Main.storyboard in Resources */,
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A3210C1EC02FEE00B3E46E /* ViewController.swift in Sources */,
+				00A321381EC0398500B3E46E /* SearchResultsController.swift in Sources */,
 				00A3210A1EC02FEE00B3E46E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
